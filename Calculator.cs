@@ -1,17 +1,5 @@
 class Calculator
 {
-    public static double Calculate(double num1, double num2, char op)
-    {
-        return op switch
-        {
-            '+' => num1 + num2,
-            '-' => num1 - num2,
-            '*' => num1 * num2,
-            '/' => num2 != 0 ? num1 / num2 : throw new DivideByZeroException(),
-            _ => throw new InvalidOperationException("Invalid operator")
-        };
-    }
-
     public static string OldPhonePad(string input)
     {
       string result = "";
