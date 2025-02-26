@@ -13,13 +13,13 @@
 
 - **Clone the repository** using Git:
   ```sh
-  git clone <URL_of_your_repository>
+  git clone git@github.com:nisitjiraruwat/TestOldPhonePad.git
 
 ### 2. **Navigate to the Project Folder**
 
 - **Open Terminal** and use the following command to navigate to the project folder:
   ```sh
-  cd <project_name>
+  cd TestOldPhonePad
 
 ### 3. **Run the Project**
 
